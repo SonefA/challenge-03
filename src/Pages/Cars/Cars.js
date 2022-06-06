@@ -83,7 +83,7 @@ export const Cars = () => {
                 <NavDropdown.Item href="#action/3.2">History</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">Setting</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Logout</NavDropdown.Item>
+                <NavDropdown.Item href="http://localhost:3000/">Logout</NavDropdown.Item>
               </NavDropdown>
             </Form>
           </div>

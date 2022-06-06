@@ -4,15 +4,23 @@
     box-sizing: border-box;
 } */
 
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
 .container-fluid {
     box-sizing: border-box;
     display: flex;
+    padding: 0px;
+    margin: 0px;
 }
 
 .signInBg-picture {
     background-image: url(/src/Asset/Img/carSignIn2.png);
     background-repeat: no-repeat;
-    height: 712px;
+    height: 745px;
     width: 1000px;
     background-size : cover;
     background-position : inherit;

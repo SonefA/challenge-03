@@ -27,8 +27,11 @@ export const SignIn = () => {
               <Form.Label>Password</Form.Label>
               <Form.Control type="password" placeholder="6+ karakter" />
             </Form.Group>
-            <Button className="signIn-button" variant="primary" type="submit"><a href="http://localhost:3000/Dashboard">
+            {/* <Button className="signIn-button" variant="primary" type="submit"><a href="http://localhost:3000/Dashboard">
               Sign In</a>
+            </Button> */}
+            <Button className="signIn-button" variant="primary" type="submit">
+            Sign In
             </Button>
           </Form>
         </div>

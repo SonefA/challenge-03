@@ -1,10 +1,7 @@
 import React from "react";
 import "./Dashboard.css";
 
-import { Form } from "react-bootstrap";
-import { FormControl } from "react-bootstrap";
-import { Button } from "react-bootstrap";
-import { NavDropdown } from "react-bootstrap";
+import { Button, Form, FormControl, NavDropdown } from "react-bootstrap";
 import { Pagination } from "react-bootstrap";
 
 import homeLogo from "../../Asset/Img/Dashboard/navbar-left/fi_home.png";
@@ -20,6 +17,7 @@ export const Dashboard = () => {
   return (
     <>
       <div className="container-dashboard">
+      
         <div className="navbar-left">
           <div className="navbar-left-logo">
             <div className="navbar-left-logo1"></div>
@@ -80,7 +78,7 @@ export const Dashboard = () => {
                 <NavDropdown.Item href="#action/3.2">History</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">Setting</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Logout</NavDropdown.Item>
+                <NavDropdown.Item href="http://localhost:3000/">Logout</NavDropdown.Item>
               </NavDropdown>
             </Form>
           </div>

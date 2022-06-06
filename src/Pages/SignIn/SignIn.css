@@ -10,7 +10,7 @@
 }
 
 .signInBg-picture {
-    background-image: url(/src/Asset/Img/carSignIn2.png);
+/*     background-image: url(/src/Asset/Img/carSignIn2.png); */
     background-repeat: no-repeat;
     height: 712px;
     width: 1000px;
